@@ -4,9 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "engines": {
+    "node": "^6.4.0",
+    "npm": "^3.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesun2003/redirector.git"
+  },
+  "author": "Vladimir Semenov",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
